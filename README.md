@@ -28,7 +28,7 @@ services:
       target: php_fpm_dev
     command: >
       bash -c "cd /var/www/html
-      && composer install --no-cache --no-progress
+      && composer install --no-cache --no-scripts --no-progress
       && php-fpm"
     environment:
       APP_ENV: dev
