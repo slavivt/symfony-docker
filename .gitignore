@@ -9,5 +9,4 @@
 ###< symfony/framework-bundle ###
 /compose.override.yaml
 /composer.lock
-/symfony.lock
 .idea
