@@ -17,7 +17,7 @@ services:
       - .env
     command: >
       bash -c "cd /var/www/html
-      && composer install --no-dev --no-cache --prefer-dist --no-progress
+      && composer install --no-dev --no-scripts --no-cache --prefer-dist --no-progress
       && php-fpm"
     deploy:
       resources:
