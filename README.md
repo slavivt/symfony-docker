@@ -19,7 +19,7 @@ APP_ENV=dev
 ```
 
 ### Docker
-Docker compose can is configured with composer.yaml file. It can be overriden with composer.override.yaml file.
+Docker compose is configured with compose.yaml file. It can be overriden with compose.override.yaml file.
 By default docker compose use prod build. If you want to use the dev build you have to add composer.override.yaml with following content:
 ```
 services:
